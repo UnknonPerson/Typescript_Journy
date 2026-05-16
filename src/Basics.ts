@@ -62,3 +62,7 @@ function greet(name: string): string {
 const message: string = greet("World");
 console.log(message); // Output: Hello, World!
 
+const username: string = "Tanish";
+
+console.log(greet(username)); // Output: Hello, Tanish!
+
